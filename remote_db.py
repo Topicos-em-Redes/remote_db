@@ -44,7 +44,7 @@ def on_message(client, userdata, msg):
         print("Erro ao enviar ao Firebase:", e)
 
 
-client = mqtt.Client(callback_api_version=5)
+client = mqtt.Client()
 client.on_connect = on_connect
 client.on_message = on_message
 
