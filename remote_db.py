@@ -20,7 +20,7 @@ CA_CERT = str(_CERT_DIR / "ca.crt")
 MQTT_USERNAME = "firebase_db"
 MQTT_PASSWORD = "1234"
 
-FIREBASE_URL = "https://ttredes-iot-database-default-rtdb.firebaseio.com/mensagens.json"
+FIREBASE_URL = "https://ttredes-iot-default-rtdb.firebaseio.com/mensagens.json"
 
 def on_connect(client, userdata, flags, rc):
     print("Conectado ao broker com código:", rc)
